@@ -1,38 +1,155 @@
 .App {
+  padding: 40px;
+  background-color: white;
+  max-width: 50%;
+  max-height: 30% !important;
+  border-radius: 2px;
+  border: 2px solid black;
+  align-items: center;
+  margin: auto;
+}
+.head{
   text-align: center;
+  margin: auto;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.sidetext{
+  
+ display: flex;
+ flex-direction: column;
+ align-self: flex-end;
+  
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.sidetext h2 , .sidetext p{
+  align-self: flex-end;
+  margin: 10px;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.list {
+  display: flex;
+  justify-content: center;
+}
+li{
+  list-style: none;
+  padding: 10px;
+}
+.foot ,.foot1{
+  display: flex;
+  justify-content: space-evenly;
+  font-size: 12px;
+  margin-left: 0px;
+}
+span{
+  font-weight: bold;
+  padding-right: 10px;
+}
+.preview ,.edit{
+  border-radius: 2px;
+  background-color: rgb(33, 103, 157);
+  border: none;
+  color: white;
+  padding: 10px;
+  margin: 20px;
+}
+.pre {
   display: flex;
   flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+}
+.descrip{
+  display: flex;
+  flex-direction: column;
+}
+.values{
+  display: flex;
+  margin-left: -40px
+}
+.valueone ,.valuetwo ,.valuethree{
+  display: flex;
+  flex-direction: column;
+}
+.description{
+  display: flex;
+  flex-direction: column;
+}
+.font-bold{
+  font-weight: bold;
+}
+.btn{
+  border-radius: 3px;
+  border: none;
+  padding: 10px;
+  color: white;
+  background-color: rgb(21, 72, 99);
+}
+.preview{
+  justify-content: center;
+  margin: auto;
+  margin-left: 40%;
+}
+
+.values{
+display: flex;
+justify-content: space-around;
+margin-top: 30px;
+}
+.edit{
+  margin-left: 50%;
+}
+.add{
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.amnt{
+  margin-top: -2px;
+  text-align: center;
+}
+.icon{
   color: white;
 }
-
-.App-link {
-  color: #61dafb;
+.box{
+  display: flex;
+  justify-content: space-between;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.content{
+  display: flex;
+  justify-content: space-around;
+}
+.body{
+  display: flex;
+  justify-content:space-around;
+  margin-left: 10px;
+}
+.list{
+  display: flex;
+  justify-content: space-evenly;
+}
+.dwnload{
+  margin: auto;
+  margin-left: 43%;
+}
+.print{
+  border: none;
+  border-radius: 2px;
+  background-color: gray;
+  color: white;
+  padding: 5px 10px;
+}
+.tble{
+  margin-top: 40px;
+}
+.ctent{
+  padding: 5px;
+}
+.download{
+  border: none;
+  border-radius: 2px;
+  background-color: rgb(59, 86, 205);
+  color: white;
+  padding: 5px 10px;
+}
+.send{
+  border: none;
+  border-radius: 2px;
+  background-color: rgb(45, 180, 123);
+  color: white;
+  padding: 5px 10px;
 }
